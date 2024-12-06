@@ -1,0 +1,125 @@
+body {
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.app {
+    margin: auto;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+}
+
+.popovers {
+    /* width: 400px;
+    height: 60px; */
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tooltip {
+    position: absolute;
+    /* padding: 5px 10px; */
+    width: 270px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.tooltip-header {
+    background: #cecece;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.tooltip-body {
+    background: #ffffff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.bd-example>.btn, .bd-example>.btn-group {
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
+.btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+.btn-danger.focus, .btn-danger:focus {
+    box-shadow: 0 0 0 .2rem rgba(225, 83, 97, .5);
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .btn {
+        transition: none;
+    }
+}
+
+.btn {
+    display: block;
+    font-weight: 400;
+    margin: auto;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    border-radius: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
